@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { startRegistration, startAuthentication } from '@simplewebauthn/browser';
 
-const API_BASE = 'http://localhost:3351/api';
+// const API_BASE = 'http://localhost:3351/api';
+const API_BASE = 'https://787f-115-85-93-124.ngrok-free.app/api';
 
 export default function PasskeyAuth() {
   const [email, setEmail] = useState('');
